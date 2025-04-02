@@ -88,7 +88,7 @@
 </head>
 <body>
   <div class="container">
-    <img src="https://www.monashactuary.com.au/_next/static/media/mass-logo.2d7b43ae.svg" alt="MASS Logo" class="logo">
+    <img src="/Users/mukonanangammbi/Downloads" alt="MASS Logo" class="logo">
     <h1>MASS Newsletter 📬</h1>
 
     <p id="personalGreeting">Hello 👋</p>
