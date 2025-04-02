@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MASS Newsletter</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Open Sans', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f4f8;
+      color: #15317E;
+      text-align: center;
+    }
+    .container {
+      max-width: 600px;
+      margin: 40px auto;
+      background-color: #ffffff;
+      border-radius: 20px;
+      padding: 40px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    }
+    h1 {
+      font-size: 48px;
+      color: #002147;
+      text-shadow: 2px 2px 8px rgba(0, 33, 71, 0.3);
+      font-weight: 800;
+      margin-bottom: 20px;
+    }
+    h2, h3 {
+      color: #002147;
+      text-shadow: 2px 2px 8px rgba(0, 33, 71, 0.3);
+      font-weight: 700;
+    }
+    a {
+      color: #0867ec;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .logo {
+      width: 180px;
+      margin: 20px auto;
+    }
+    .highlight-box {
+      background-color: #dfe9f3;
+      padding: 20px;
+      border-radius: 16px;
+      margin-bottom: 30px;
+      box-shadow: 0 8px 20px rgba(0, 33, 71, 0.1);
+      border: 3px solid #002147;
+    }
+    .highlight-box h2 {
+      margin-top: 0;
+      font-size: 28px;
+      color: #002147;
+      text-shadow: 2px 2px 12px rgba(0, 33, 71, 0.2);
+      font-weight: 700;
+    }
+    .highlight-box p {
+      font-size: 16px;
+      color: #002147;
+      font-weight: 400;
+    }
+    ul {
+      text-align: left;
+      display: inline-block;
+    }
+    .footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 3px solid #002147;
+      color: #002147;
+    }
+  </style>
+  <script>
+    // Personalize greeting using query parameter from mail merge or spreadsheet
+    window.onload = function () {
+      const urlParams = new URLSearchParams(window.location.search);
+      const name = urlParams.get('name');
+      if (name) {
+        const greeting = document.getElementById('personalGreeting');
+        greeting.innerHTML = `Hey ${name} 👋`;
+      }
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <img src="https://www.monashactuary.com.au/_next/static/media/mass-logo.2d7b43ae.svg" alt="MASS Logo" class="logo">
+    <h1>MASS Newsletter 📬</h1>
+
+    <p id="personalGreeting">Hello 👋</p>
+    <p>Welcome to Week 6 of the semester! 🎉 You've made it halfway through, and we couldn't be prouder of your progress. Stay strong and keep up the fantastic work — the best is yet to come!</p>
+
+    <!-- Trivia Night Announcement -->
+    <div class="highlight-box">
+      <h2>🎉 Trivia Night - Week 7!</h2>
+      <p>Get your game face on! Trivia Night is back in Week 7, promising a night of laughter, competition, and unforgettable memories. Bring your friends, enjoy some snacks, and challenge yourself to become the trivia champion! 🏆</p>
+      <a href="https://www.eventbrite.com.au/e/mass-trivia-night-2025-tickets-1305689565639?aff=oddtdtcreator">🎟️ Get Your Tickets Now!</a>
+    </div>
+
+    <!-- Q&A Panel Announcement -->
+    <div class="highlight-box">
+      <h2>💡 ASS x MASS Consulting & Insurance Q&A Panel</h2>
+      <p>Curious about the real-world challenges of the actuarial profession? Join the ASS x MASS Q&A panel and gain insights from seasoned industry professionals. This is your chance to ask questions, learn, and grow your network!</p>
+      <a href="https://events.humanitix.com/ass-x-mass-consulting-and-insurance-q-and-a">📝 Sign Up Now</a>
+    </div>
+
+    <!-- Corporate Cocktails Recap -->
+    <div class="highlight-box">
+      <h2>🍸 Corporate Cocktails - Week 4 Recap</h2>
+      <p>The Week 4 Corporate Cocktails event was a resounding success! Held at the picturesque Docklands River, students connected with industry sponsors, exchanged insights, and built lasting relationships — all while savoring delicious canapés and drinks.</p>
+      <a href="https://drive.google.com/drive/folders/1snMrxSI1hhFO1eWqW7nIG9_r1fVusM4V?usp=sharing">📷 View Photos</a>
+    </div>
+
+    <!-- Graduate and Internship Opportunities -->
+    <div class="highlight-box">
+      <h2>🚀 Graduate and Internship Opportunities</h2>
+      <p>Check out these exciting opportunities for graduates and interns. For more up-to-date opportunities, please refer to our Linktree.</p>
+      <ul>
+        <li><a href="https://optiver.com/working-at-optiver/graduate-and-student/">Optiver Graduate Opportunity</a></li>
+        <li><a href="https://optiver.com/working-at-optiver/internships/">Optiver Internship</a></li>
+        <li><a href="https://quantium.com/graduate-academy/">Quantium Graduate Academy 2026</a></li>
+        <li><a href="https://job-boards.greenhouse.io/42bmipo&arf6c=rtwv/jobs/7889947002">Jane Street Portal Sydney</a></li>
+        <li><a href="https://jobs-au.pwc.com/au/en/job/591823WD/FY26-Graduate-Melbourne-Actuarial">PWC Actuarial Graduate</a></li>
+        <li><a href="https://mmc.wd1.myworkdayjobs.com/MMC/job/Melbourne---727-Collins/Actuarial-Graduate-Analyst_R_295842">Mercer Actuarial Graduate Analyst</a></li>
+        <li><a href="https://finity.com.au/careers/current-opportunities/">Finity Summer Internship</a></li>
+        <li><a href="https://www.flowtraders.com/careers/job-description/5749162">Flow Traders Trading Intern</a></li>
+        <li><a href="https://www.flowtraders.com/careers/job-description/5749162">Flow Traders Graduate Trader</a></li>
+        <li><a href="https://taylorfry.com.au/graduate-program/">Taylor Fry Graduate Program</a></li>
+      </ul>
+    </div>
+
+    <!-- Socials Section -->
+    <div class="footer">
+      <h3>📢 Connect With Us</h3>
+      <p>Follow us on our social media platforms to stay updated:</p>
+      <a href="https://www.facebook.com/monashactuary">🌐 Facebook</a> | 
+      <a href="https://www.instagram.com/monashactuary">📸 Instagram</a> | 
+      <a href="https://www.linkedin.com/company/monash-actuarial-student-society">💼 LinkedIn</a> | 
+      <a href="https://www.monashactuary.com.au/">🌐 Visit Our Website</a>
+    </div>
+  </div>
+</body>
+</html>
